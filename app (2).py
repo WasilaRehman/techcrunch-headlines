@@ -54,9 +54,9 @@ def main():
     st.write('This is a web app created to fetch relevant news headlines\
              Please provide a query and our different models will fetch its relevant result')
 
-    data = st.columns([7, 2])
+    st.write(data.head())
 
-    
+   
 
 
 if _name_ == '_main_':
