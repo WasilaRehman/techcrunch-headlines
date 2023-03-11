@@ -7,10 +7,10 @@ pd.set_option('display.max_colwidth', 1000)
 import numpy as np # linear algebra
 from time import time  # To time our operations
 from collections import defaultdict  # For word frequency
-import spacy  # For preprocessing
+#import spacy  # For preprocessing
 from spacy.lang.en import English
-from spacy import displacy
-import textacy
+#from spacy import displacy
+#import textacy
 from textacy import extract, text_stats
 from textblob import TextBlob
 from sklearn.feature_extraction.text import CountVectorizer
@@ -28,7 +28,7 @@ from matplotlib import pyplot as plt
 from yellowbrick.cluster import KElbowVisualizer, SilhouetteVisualizer
 from sklearn.decomposition import TruncatedSVD
 
-import nltk
+#import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 
