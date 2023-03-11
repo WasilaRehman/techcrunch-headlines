@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import time
 import re, string
-!pip install nltk
+pip install nltk
 import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
